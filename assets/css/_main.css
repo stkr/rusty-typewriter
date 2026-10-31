@@ -1,8 +1,8 @@
 /* main and native elements rules */
 
 html[color-scheme^='dark'] .dark-icon,
-html[color-scheme^='light'] .light-icon { 
-  display: none; 
+html[color-scheme^='light'] .light-icon {
+  display: none;
 }
 
 html {
@@ -195,9 +195,9 @@ a > svg {
 }
 
 blockquote {
-  padding-left: 25px; 
+  padding-left: 25px;
   margin: auto 5px;
-  border-left: 6px var(--dim-color) solid; 
+  border-left: 6px var(--dim-color) solid;
 }
 
 blockquote > p {
@@ -205,12 +205,12 @@ blockquote > p {
 }
 
 table {
-  border: 1px var(--dim-color) solid; 
+  border: 1px var(--dim-color) solid;
   border-collapse: collapse;
 }
 
 th, td {
-  border: 1px var(--dim-color) solid; 
+  border: 1px var(--dim-color) solid;
   padding: .2rem .5rem;
 }
 
@@ -226,6 +226,4 @@ pre:has(code) {
 :not(pre) > code {
   padding: .3rem .3rem 0;
   border-radius: .3rem;
-  color: var(--code-text-color);
-  background-color: var(--code-background-color) !important;
 }
